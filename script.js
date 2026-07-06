@@ -2,9 +2,9 @@ console.log("Site Agro Forte, Futuro Sustentável carregado com sucesso!");
 
 let ano = new Date().getFullYear();
 
+document.getElementById("rodape").innerHTML =
+"© " + ano + " | Projeto Agrinho - Agro Forte, Futuro Sustentável";
+
 console.log("Ano atual: " + ano);
 
-let mensagem = "Bem-vindo ao Projeto Agrinho!";
-console.log(mensagem);
-
-alert("Bem-vindo ao projeto Agro Forte, Futuro Sustentável!");
+console.log("Bem-vindo ao Projeto Agrinho!");
